@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+RewriteEngine On
+
+
+#использует php скрипты в html файлах
+AddHandler application/x-httpd-php .php .html .htm
+RewriteEngine On

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script language="javascript" type="text/javascript" src="js/post.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+	
+
+ <form method="post" action=""  id="myform1">
+ <p><input style="margin-right:7px;width: 155px;padding:1px;text-align:center;" placeholder="номер" maxlength="12" name="nomer" type="text" onkeyup="this.value = this.value.replace (/[^\d\+]/g, '')" /> 
+<input class="knop2" type="button" value="заказать" onClick="send('com/zvonok.php','myform1','result1');"  /></p>
+</form>
+<div id="result1" ></div>
+
+
+
+</body>
+</html>
